@@ -1,0 +1,13 @@
+Q0 I Q1 I R
+Q1 I Q1 I R
+Q1 b Q2 # L
+Q2 T Q2 T L
+Q2 I Q3 T S
+Q3 T Q3 T R
+Q3 # Q3 # R
+Q3 I Q3 I R
+Q3 b Q4 I S
+Q4 I Q4 I L
+Q4 # Q2 # L
+Q2 b Q5 b R
+Q5 T Q5 I R

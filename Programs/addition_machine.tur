@@ -1,0 +1,5 @@
+Q0 I Q0 I R
+Q0 # Q1 I R
+Q1 I Q1 I R
+Q1 b Q2 b L
+Q2 I QE b S

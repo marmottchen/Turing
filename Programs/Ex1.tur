@@ -1,0 +1,15 @@
+Q0 1 Q1 1 R
+Q0 2 Q3 2 R
+Q0 b Qak b L
+Q1 1 Q2 1 R
+Q1 2 Qab 1 L
+Q1 b Qab 2 R
+Q2 1 Q0 1 R
+Q2 2 Qab 2 R
+Q2 b Qab 1 L
+Q3 1 Qab b L
+Q3 2 Q4 2 R
+Q3 b Qab 2 L
+Q4 1 Qab 1 R
+Q4 2 Q0 2 R
+Q4 b Qab b R
