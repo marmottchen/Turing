@@ -1,7 +1,7 @@
 from Turing import *
 
 
-with open("Programs/Ex1.tur", "r") as f:
+with open("Programs/Sheet_4/Ex1.tur", "r") as f:
     text = f.read()
 
 machine = TuringMachine.parse(text)
