@@ -175,9 +175,9 @@ class TuringMachine:
         else:
             return False
 
-    def run(self, tape: list[str], start_state: str = START_STATE, debug_strength: int = 0) -> list[str]:
+    def run(self, tape: list[str], start_state: str = START_STATE, debug_strength: int = 0) -> (list[str], str):
         """
-        Runs the program on the given tape until it halts and returns the resulting tape.
+        Runs the program on the given tape until it halts and returns the resulting tape and the final state.
 
         The amount of debug output can be controlled through debug_strength, with: \n
         0: no debug printing \n
@@ -195,7 +195,7 @@ class TuringMachine:
 
         if debug_strength >= 1:
             print(f"Program finished on state {turing_state.state} and tape: \n{''.join(turing_state.tape)}")
-        return turing_state.tape
+        return turing_state.tape, turing_state.state
 
 
 if __name__ == "__main__":
