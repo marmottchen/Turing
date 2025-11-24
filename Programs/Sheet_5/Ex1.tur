@@ -1,0 +1,9 @@
+Q0 0 Q0 0 R
+Q0 b Qak b R
+Q0 1 Q1 1 R
+Q1 1 Q0 1 R
+Q1 b Qab b R
+Q1 0 Q2 0 R
+Q2 1 Q2 1 R
+Q2 0 Q1 0 R
+Q2 b Qab b R
